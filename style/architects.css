@@ -47,7 +47,11 @@ main{
 main > section{
     margin-top: 130px;
 }
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
 
+}
 /*header style*/
 
 /*navbar related style*/
@@ -110,15 +114,13 @@ main > section{
     
 }
 
-.feature-title{
-    font-size: 2.8rem;
-    font-weight: 700;
 
-}
 
 #quick-list{
     font-weight: 500;
 }
+
+/* Small device*/
 
 @media screen and (max-width:576px) {
     .navber ,.nav-link,.teams{
@@ -132,4 +134,18 @@ main > section{
     .our-features{
         margin-left: 20px;
     }
+}
+
+/* Medium device*/
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .teams{
+        flex-direction: column;
+    }
+
+    .our-features{
+        margin-left:50px auto;
+    }
+
+    
 }
